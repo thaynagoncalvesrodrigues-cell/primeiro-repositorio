@@ -6,4 +6,23 @@ body {
 h1 { 
     font-size: 30px;
     text-align: center;
- }    
+ }
+ 
+ header { 
+  border: solid 2px rgb red;
+  font-size: 32px;
+  padding: 10px;
+  color: aquamarine;
+ }
+h1 { 
+font-size: 30px;                  /*tamanho da fonte*/
+text-align: center;               /*centralizado*/
+text-transform: uppercase;        /*letras maiúscula*/
+}
+
+p{ 
+   font-size: 16px;
+   color: aquamarine;
+}
+
+
