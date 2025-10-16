@@ -1,7 +1,9 @@
 body { 
-    background-color: blueviolet;
-    color:blue
-    font-family: "lora",sans-serif;
+   background-color: blueviolet;
+   color:blue;
+   font-family: "lora",sans-serif;
+   margin: 0px;
+   margin-bottom: 100px; 
 }
 
 h1 { 
@@ -16,7 +18,7 @@ h1 {
   color: aquamarine;
  }
 
-section {
+.chamada {
   background-color: aquamarine; /* cor escolhida */
   padding-bottom: 80px;
   padding-top: 80px;
@@ -39,4 +41,29 @@ p{
    color: aquamarine;
 }
 
+.categoria {
+   padding-left: 20px;   
+   padding-right: 20px;
+   margin-top: 50px;
+}
 
+.categoria-videos {
+  display: flex;
+  overflow: auto;
+  gap: 10px;
+}
+
+.categoria-videos img{
+  opacity: 0.5;
+  height: 200px;
+}
+
+.categoria-videos img:hover {
+   opacity: 1.0;
+   border: 1px solid hotpink;
+}
+
+.categoria h2 {
+   color: blueviolet;
+}
+  
