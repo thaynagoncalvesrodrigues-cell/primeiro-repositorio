@@ -1,6 +1,6 @@
 body { 
-   background-color: blueviolet;
-   color:blue;
+   background-color: rgba(113, 37, 130, 0.826);
+   color:black;
    font-family: "lora",sans-serif;
    margin: 0px;
    margin-bottom: 100px; 
@@ -12,14 +12,14 @@ h1 {
  }
  
  header { 
-  border: solid 2px rgb red;
+  border: solid 2px rgb black;
   font-size: 32px;
   padding: 10px;
-  color: aquamarine;
+  color: rgb(193, 79, 178);
  }
 
 .chamada {
-  background-color: aquamarine; /* cor escolhida */
+  background-color: rgb(135, 69, 163); /* cor escolhida */
   padding-bottom: 80px;
   padding-top: 80px;
   display: flex;
@@ -38,7 +38,7 @@ text-transform: uppercase;        /*letras maiúscula*/
 
 p{ 
    font-size: 16px;
-   color: aquamarine;
+   color: rgb(157, 46, 204);
 }
 
 .categoria {
@@ -60,10 +60,10 @@ p{
 
 .categoria-videos img:hover {
    opacity: 1.0;
-   border: 1px solid hotpink;
+   border: 1px solid rgb(218, 82, 150);
 }
 
 .categoria h2 {
-   color: blueviolet;
+   color: rgb(112, 38, 112);
 }
   
